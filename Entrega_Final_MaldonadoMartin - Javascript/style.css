@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  background-color: rgb(117, 197, 135); /* Color de fondo */
+}
+
+form {
+ margin: 0 auto; 
+ width: 100%;   
+ background-color: rgb(76, 172, 113); /* Color blanco para el formulario */
+ padding: 2px; /* separamos los bordes del form del resto de elementos */
+ border-radius: 10px; /* Redondeamos los bordes del form */
+}
+
+
+h1 {
+  -webkit-transform: rotate(360deg);transform: rotate(360deg);
+  text-align: center;}
+
+.formulario_carga {
+  margin: 15px 15px;
+  padding: 15px;
+  background-color: rgb(18, 219, 135);
+  border-radius: 5px;
+  color: rgb(53, 146, 66);
+}
+.formulario_carga input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width:150px !important ;
+  margin-top: 10px;
+  border-radius: 6px;
+
+}
+.btn:hover {
+background: #2079b0;
+background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+text-decoration: none;
+}
+.div_productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px 15px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+  background-color: rgb(113, 212, 219);
+  border-radius: 6px;
+  text-align: center;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #889ccf; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+}
+
+.h1:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+.field {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .field label {
+    width: max-content;
+    display: block;
+    font-size: 12px;
+    color: rgb(17, 16, 16);
+  }
+  
+  .field input {
+    display: block;
+    min-width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
